@@ -1,0 +1,55 @@
+header {
+	border: 1px dashed black;
+}
+
+.nav-item li {
+	display: inline-block;
+	text-decoration-style: none;
+	margin-right: 3em;
+}
+
+.disabled {
+	color: grey;
+}
+
+a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.children :first-child {
+	color: red;
+}
+
+.children :nth-child(3) {
+	color: blue;
+}
+
+.children :nth-child(2) {
+	background-color: red;
+}
+
+.children :nth-child(4) {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.promo {
+	font-weight: bold;
+	color: #ffd700;
+}
+
+footer input {
+	height: 25px;
+}
+/*Any h4 that is a direct child of grandparent should have a 1px border with rounded corners
+Elements with a class of promo should have bold text that is also colored gold.
+Without adding any other attributes to the input fields in the footer, write a CSS selector that 
+makes any text input field have a height of 25px.*/
